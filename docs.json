@@ -1,59 +1,64 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Mint Starter Kit",
+  "name": "AI Interview Buddy Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FFC629",
+    "light": "#FFF7DE",
+    "dark": "#1D252C"
   },
   "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo/logo-light.png",
+    "dark": "/logo/logo-dark.png"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "getting-started/how-to-install",
+              "getting-started/using-the-app"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Features",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "features/interviews",
+              "features/job-positions",
+              "features/generate-cover-letter",
+              "features/generate-linkedin-intro",
+              "features/generate-email-reply",
+              "features/career-profiles"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Methodology",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "methodology/analyzing-cv",
+              "methodology/evaluating-interview-performance"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/overview",
+              "community/request-feature",
+              "community/report-bug",
+              "community/report-security-threat",
+              "community/ux-figma",
+              "community/testing"
+            ]
+          },
+          {
+            "group": "Open source",
+            "pages": [
+              "open-source/running-locally",
+              "open-source/license",
+              "open-source/contributing"
             ]
           }
         ]
@@ -62,28 +67,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Website",
-          "href": "http://aiinterviewbuddy.com/",
+          "anchor": "Homepage",
+          "href": "https://aiinterviewbuddy.com/",
           "icon": "house"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/logo-light.png",
-    "dark": "/logo/logo-dark.png"
-  },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://aiinterviewbuddy.com/sign-in"
     }
   },
   "contextual": {

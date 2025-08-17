@@ -60,6 +60,12 @@
               "open-source/license",
               "open-source/contributing"
             ]
+          },
+          {
+            "group": "Other",
+            "pages": [
+              "other/deleting-your-account"
+            ]
           }
         ]
       }

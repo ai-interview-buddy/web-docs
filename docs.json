@@ -20,6 +20,7 @@
           {
             "group": "Getting started",
             "pages": [
+              "/index",
               "getting-started/how-to-install",
               "getting-started/using-the-app"
             ]
@@ -46,7 +47,7 @@
             "group": "Community",
             "pages": [
               "community/overview",
-              "community/request-feature",
+              "community/feature-request",
               "community/report-bug",
               "community/report-security-threat",
               "community/ux-figma",
